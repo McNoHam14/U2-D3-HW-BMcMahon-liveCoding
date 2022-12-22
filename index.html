@@ -18,81 +18,271 @@
             <a href="#" class="nav-link">Pages</a>
             <a href="#" class="nav-link">Accounts</a>
         </nav>
-        <button></button> <span>bell symbol</span>
-        <button></button> <span>profile image</span>
+        <button class="bell-btn">
+            <div class="bell-btn-container">
+                <img src="./assets/css/assets/logo.svg">
+            </div>
+            <span>bell symbol</span>
+        </button>
+        <button class="profile-btn">
+            <div class="profile-btn-container">
+                <img src="./assets/css/assets/logo.svg">
+            </div>
+            <span>profile symbol</span>
+        </button> 
     </header>
 
     <section class="hero-section">
         <div class="hero-subsection-main">
-            <h1>Welcome Web Students!</h1>
-            <p>Hand-picked insrtructor and expertly crafted</p>
-            <p>course, designed for the modern students and</p>
-            <p>entreprenuer.</p>
+            <div class="hero-subsection-main-container">
+                <h1>Welcome Web Students!</h1>
+                <p>Hand-picked instrructor and expertly crafted</p>
+                <p>course, designed for the modern students and</p>
+                <p>entreprenuer.</p>
+                <button class="browse-course-btn">
+                    <div class="browse-course-btn-container">
+                        <img src="./assets/css/assets/logo.svg">
+                    </div>
+                    <span>Browse Courses</span>
+                </button>
+                <button class="instructor-btn">
+                    <div class="instructor-btn-container">
+                        <img src="./assets/css/assets/logo.svg">
+                    </div>
+                    <span>Are You Instructor?</span>
+                </button>
+            </div>  
             <img class="hero-img" src="./assets/css/assets/hero-img.png">
         </div>
+
         <div class="hero-subsection-links">
             <div class="courses">
-                <!-- img -->
-                <p>30,000 online courses</p>
-                <p>Enjoy a variety of fresh topics</p>
+                <button class="profile-btn">
+                    <div class="profile-btn-container">
+                        <img src="./assets/css/assets/logo.svg">
+                    </div>
+                </button>
+                <div class="subsection-text">
+                    <h3>30,000 online courses</h3>
+                    <p>Enjoy a variety of fresh topics</p>
+                </div>
             </div>
             <div class="instruction">
-                <p>Expert Instructionm</p>
-                <p>Find the right instructor for you</p>
+                <button class="profile-btn">
+                    <div class="profile-btn-container">
+                        <img src="./assets/css/assets/logo.svg">
+                    </div>
+                </button>
+                <div class="subsection-text">
+                    <h3>Expert Instruction</h3>
+                    <p>Find the right instructor for you</p>
+                </div>
             </div>
             <div class="access">
-                <p>Lifetime access</p>
-                <p>Learn on your schedule</p>
+                <button class="profile-btn">
+                    <div class="profile-btn-container">
+                        <img src="./assets/css/assets/logo.svg">
+                    </div>
+                </button>
+                <div class="subsection-text">
+                    <h3>Lifetime access</h3>
+                    <p>Learn on your schedule</p>
+                </div>      
             </div>
         </div>  
     </section>
 
     <section class="recommended-section">
-        <div class="graphqi">
-            <!-- img
-            heading
-            course length
-            stars
-            price
-
-            author
-            tag select -->
+        <h2>Recommended to you</h2>
+        <div class ="first-row">
+            <div class="graphql">
+                <img src="./assets/css/assets/course-graphql.jpg">
+                <h3>GraphQL: introduction to graphQL for beginners</h3>
+                <span>placeholder for time and difficulty</span>
+                <span>placeholder for rating</span>
+                <p>$500<span>$600</span></p>
+                <div class ="card-bottom">
+                    <button class="profile-btn">
+                        <div class="profile-btn-container">
+                            <img src="./assets/css/assets/logo.svg">
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="javascript">
+                <img src="./assets/css/assets/course-javascript.jpg">
+                <h3>GraphQL: introduction to graphQL for beginners</h3>
+                <span>placeholder for time and difficulty</span>
+                <span>placeholder for rating</span>
+                <p>$500<span>$600</span></p>
+                <div class ="card-bottom">
+                    <button class="profile-btn">
+                        <div class="profile-btn-container">
+                            <img src="./assets/css/assets/logo.svg">
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="node">
+                <img src="./assets/css/assets/course-node.jpg">
+                <h3>GraphQL: introduction to graphQL for beginners</h3>
+                <span>placeholder for time and difficulty</span>
+                <span>placeholder for rating</span>
+                <p>$500<span>$600</span></p>
+                <div class ="card-bottom">
+                    <button class="profile-btn">
+                        <div class="profile-btn-container">
+                            <img src="./assets/css/assets/logo.svg">
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="laravel">
+                <img src="./assets/css/assets/course-laravel.jpg">
+                <h3>GraphQL: introduction to graphQL for beginners</h3>
+                <span>placeholder for time and difficulty</span>
+                <span>placeholder for rating</span>
+                <p>$500<span>$600</span></p>
+                <div class ="card-bottom">
+                    <button class="profile-btn">
+                        <div class="profile-btn-container">
+                            <img src="./assets/css/assets/logo.svg">
+                        </div>
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="javascript">
-            <!-- img
-            heading
-            course length
-            stars
-            price
-
-            author
-            tag select -->
+        <h2>Most popular</h2>
+        <div class ="second-row">
+            
+            <div class="graphql">
+                <img src="./assets/css/assets/course-graphql.jpg">
+                <h3>GraphQL: introduction to graphQL for beginners</h3>
+                <span>placeholder for time and difficulty</span>
+                <span>placeholder for rating</span>
+                <p>$500<span>$600</span></p>
+                <div class ="card-bottom">
+                    <button class="profile-btn">
+                        <div class="profile-btn-container">
+                            <img src="./assets/css/assets/logo.svg">
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="javascript">
+                <img src="./assets/css/assets/course-javascript.jpg">
+                <h3>GraphQL: introduction to graphQL for beginners</h3>
+                <span>placeholder for time and difficulty</span>
+                <span>placeholder for rating</span>
+                <p>$500<span>$600</span></p>
+                <div class ="card-bottom">
+                    <button class="profile-btn">
+                        <div class="profile-btn-container">
+                            <img src="./assets/css/assets/logo.svg">
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="node">
+                <img src="./assets/css/assets/course-node.jpg">
+                <h3>GraphQL: introduction to graphQL for beginners</h3>
+                <span>placeholder for time and difficulty</span>
+                <span>placeholder for rating</span>
+                <p>$500<span>$600</span></p>
+                <div class ="card-bottom">
+                    <button class="profile-btn">
+                        <div class="profile-btn-container">
+                            <img src="./assets/css/assets/logo.svg">
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="laravel">
+                <img src="./assets/css/assets/course-laravel.jpg">
+                <h3>GraphQL: introduction to graphQL for beginners</h3>
+                <span>placeholder for time and difficulty</span>
+                <span>placeholder for rating</span>
+                <p>$500<span>$600</span></p>
+                <div class ="card-bottom">
+                    <button class="profile-btn">
+                        <div class="profile-btn-container">
+                            <img src="./assets/css/assets/logo.svg">
+                        </div>
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="node">
-            <!-- img
-            heading
-            course length
-            stars
-            price
-
-            author
-            tag select -->
-        </div>
-        <div class="laravel">
-            <!-- img
-            heading
-            course length
-            stars
-            price
-
-            author
-            tag select -->
-        </div>
+        <h2>Trending</h2>
+        <div class ="third-row">
+           <div class="graphql">
+               <img src="./assets/css/assets/course-graphql.jpg">
+               <h3>GraphQL: introduction to graphQL for beginners</h3>
+               <span>placeholder for time and difficulty</span>
+               <span>placeholder for rating</span>
+               <p>$500<span>$600</span></p>
+               <div class ="card-bottom">
+                   <button class="profile-btn">
+                       <div class="profile-btn-container">
+                           <img src="./assets/css/assets/logo.svg">
+                       </div>
+                   </button>
+               </div>
+           </div>
+           <div class="javascript">
+               <img src="./assets/css/assets/course-javascript.jpg">
+               <h3>GraphQL: introduction to graphQL for beginners</h3>
+               <span>placeholder for time and difficulty</span>
+               <span>placeholder for rating</span>
+               <p>$500<span>$600</span></p>
+               <div class ="card-bottom">
+                   <button class="profile-btn">
+                       <div class="profile-btn-container">
+                           <img src="./assets/css/assets/logo.svg">
+                       </div>
+                   </button>
+               </div>
+           </div>
+           <div class="node">
+               <img src="./assets/css/assets/course-node.jpg">
+               <h3>GraphQL: introduction to graphQL for beginners</h3>
+               <span>placeholder for time and difficulty</span>
+               <span>placeholder for rating</span>
+               <p>$500<span>$600</span></p>
+               <div class ="card-bottom">
+                   <button class="profile-btn">
+                       <div class="profile-btn-container">
+                           <img src="./assets/css/assets/logo.svg">
+                       </div>
+                   </button>
+               </div>
+           </div>
+           <div class="laravel">
+               <img src="./assets/css/assets/course-laravel.jpg">
+               <h3>GraphQL: introduction to graphQL for beginners</h3>
+               <span>placeholder for time and difficulty</span>
+               <span>placeholder for rating</span>
+               <p>$500<span>$600</span></p>
+               <div class ="card-bottom">
+                   <button class="profile-btn">
+                       <div class="profile-btn-container">
+                           <img src="./assets/css/assets/logo.svg">
+                       </div>
+                   </button>
+               </div>
+           </div>
+       </div>
     </section>
-
-    <footer
-
-
-    
+    <footer>
+        <hr>
+        <div class="footer-container">
+            <p> &copy 2022 Geeks. All Rights Reserved</p>
+            <div class = "footer-links">
+                <span>Privacy</span>
+                <span>Terms</span>
+                <span>Feedback</span>
+                <span>Support</span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

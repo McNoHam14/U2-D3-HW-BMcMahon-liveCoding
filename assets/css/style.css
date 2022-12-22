@@ -1,0 +1,159 @@
+/* :root {
+    --font-body: ;
+
+    --clr-green: ;
+} */
+
+body {
+    margin: 0;
+}
+
+header {
+    max-width: 1600px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    padding-block: 25px;
+    padding-left: 25px;
+}
+
+header img.logo {
+    margin-right: 25px;
+}
+
+nav {
+    margin-right: auto;
+}
+
+nav .nav-link {
+    padding: 10px;
+}
+
+.hero-subsection-main {
+    background-color: blue;
+    display:flex;
+    align-items: center;
+    padding-left: 100px;
+    /* margin-right: auto; */
+}
+
+/* .hero-subsection-main-container {
+
+} */
+
+h1 {
+    color: white;
+}
+
+.hero-section img {
+    margin-left: auto;
+}
+
+
+.hero-subsection-links {
+    display: flex;
+    padding-inline: 10vw;
+    padding-block: 5vh;;
+}
+
+.courses {
+    display: flex;
+    flex-grow: 1;
+}
+
+.instruction {
+    display: flex;
+    flex-grow: 1;
+}
+
+.access {
+    display: flex;
+    flex-grow: 1;
+}
+
+.bell-btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile-btn { 
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+}
+
+
+/* recommended section */
+
+.recommended-section {
+    background-color: salmon;
+    padding-block: 10vh;
+}
+
+.first-row, .second-row, .third-row {
+    display: flex;
+    gap: 25px;
+    padding-inline: 20vw;
+}
+
+.first-row img{
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+}
+
+.second-row img{
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+}
+
+.third-row img{
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+}
+
+.graphql {
+    border: solid 1px black;
+    border-radius: 25px;
+}
+
+.javascript {
+    border: solid 1px black;
+    border-radius: 25px;
+}
+
+.node {
+    border: solid 1px black;
+    border-radius: 25px;
+}
+
+.laravel {
+    border: solid 1px black;
+    border-radius: 25px;
+}
+
+h2 {
+    margin-left: 20vw;
+}
+
+hr {
+    width: 80vw;
+    /* border: 0;
+    margin: 0; */
+}
+
+footer {
+    background-color: salmon;
+}
+
+.footer-container {
+    display: flex;
+}
+
+
+.footer-links {
+   align-items: end;
+}
